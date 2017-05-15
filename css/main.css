@@ -1,1 +1,159 @@
-/* Agrega aquí tus estilos*/
+/*estilos en general*/
+body{
+	font-family: 'Libre Baskerville', sans-serif;
+	box-sizing: border-box;
+	display: block;
+    background: #E7F6F2;
+    color: #325050;
+    font-size: 90%;
+    line-height: 2.0;
+    width: 100%;
+    margin: 0;
+}
+
+.page-wrapper{
+	padding: 0;
+    text-align: justify;
+    position: relative;
+
+}
+
+/*header y footer*/
+header, footer{
+	border-color: rgba(19, 67, 71, 0.9);
+	border-width: 10px;
+	background-color: rgba(45, 99, 96, 1); 	/*background-color: #2d6360;*/
+	text-align: center;
+	width: 100%;	
+}
+
+header{
+	background-image: url(../img/zen-01.jpg);
+    border-top-style: solid;
+	color: whitesmoke;
+	padding: 15px 0px 70px 0px;
+	height: 30%
+}
+
+footer{
+	border-bottom-style: solid;
+	padding: 30px 0px 30px 0px;
+	height: 30%;
+	font-size: 30px;
+}
+
+/*títulos*/
+h1, h2, h3{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: normal;
+	padding: 0;
+	margin: 0; 
+}
+
+h1, h2{
+	margin: 0;
+	background-color: #2d6360;
+	opacity: 0.9;
+}
+
+header h1{	
+	font-size: 50px;	
+}
+
+header h2{
+	font-family: 'Libre Baskerville', sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 20px;
+	font-style: italic;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*texto*/
+.summary{
+	width: 200px;
+	margin: 30px 40px 10px 175px;
+	text-align: center;
+	font-style: italic;
+	float: left;
+}
+
+.preamble{
+	clear: right;
+    padding: 20px 0px 0px 175px;
+    width: 57%;
+}
+
+.main-supporting div{
+	margin-left: 175px;
+	width: 57%;
+}
+
+.requirements p:last-child{
+	height: 70px;
+	background-image: url(../img/zen-02.png);
+	background-repeat: no-repeat;
+    background-position: 40% 10%; 
+	text-align: center;
+	padding-top: 200px;
+}
+
+/*enlaces*/
+a{
+	color: #0d8ba1;
+	text-decoration: none;
+}
+
+.intro a{
+	color: #809b7e;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a{
+	color: whitesmoke;
+	margin: 10px 1em;
+	padding-top: 20px;
+}
+
+/*barra lateral*/
+.sidebar{	
+	margin: 50px 175px 30px 1000px;
+	position: absolute;
+	width: 180px;
+	top: 210px;
+	text-align: left;
+	float: right;	
+}
+
+.wrapper h3{
+	font-size: 17px;
+}
+
+.sidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 80%;
+}
+
+.sidebar li{
+	color: #8DAD97;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: solid 1px #d9e3dc;
+}
+
+.design-selection .design-name{
+	display: block;
+	font-size: 110%;
+}
+
+.design-selection .designer-name{
+	font-style: normal;
+	font-weight: normal;
+}
